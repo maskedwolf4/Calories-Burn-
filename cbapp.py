@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the model
-model = pickle.load(open("calories_burn_model.pkl", "rb"))
+model = pickle.load(open("calburn.pkl", "rb"))
 
 # App title and layout
 st.set_page_config(page_title="Calorie Burn Prediction App", layout="centered")
